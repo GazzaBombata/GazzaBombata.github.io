@@ -1,0 +1,101 @@
+
+@media (max-width: 768px) { 
+    .scrollable-section {
+        overflow-x: scroll;
+        display: flex;
+        scroll-snap-type: x mandatory;
+    }
+}
+
+.section {
+    display: none;
+}
+.active-section {
+    display: block;
+}
+
+/* better unique font
+p {
+    font-family: 'Lato';
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6 {
+    font-family: 'Hedvig Letters Serif';
+}
+*/
+
+
+.bottom-focused-img {
+    object-fit: cover;
+    object-position: bottom;
+    height: 500px; /* or your desired fixed height */
+}
+
+a {
+    color: coral; 
+    text-decoration: none; 
+}
+
+a:hover, a:focus {
+    color: orange; 
+    text-decoration: underline; 
+}
+
+.nav-link {
+    color: coral; 
+    font-weight: bold;
+    border-bottom: 2px solid transparent; 
+    padding-bottom: 5px; 
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: orange;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    color: orange;
+    border-bottom-color: orange;
+    border-bottom-width: 4px; 
+}
+
+.nav-text {
+    display: inline; /* Show text by default */
+}
+
+.nav-link i {
+    display: none; /* Hide icons by default */
+}
+
+.btn-primary {
+    background-color: coral;
+    color: white;
+    font-family: 'Lato';
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: orange;
+    border: none;
+}
+
+.btn-primary:focus {
+    background-color: orange;
+    border: none;
+    text-decoration: none;
+
+}
+
+
+/* Example media query for screens narrower than 768px */
+@media (max-width: 768px) {
+    .nav-text {
+        display: none; /* Hide text on small screens */
+    }
+    .nav-link i {
+        display: inline; /* Show icons on small screens */
+    }
+}
+
+
+
