@@ -7,6 +7,20 @@
     }
 }
 
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
 .section {
     display: none;
 }
@@ -97,5 +111,31 @@ a:hover, a:focus {
     }
 }
 
+.j-center {
+    justify-content: center;
+}
+
+.custom-card {
+    height: 200px; 
+    object-fit: cover; 
+    object-position: 50% 50%;
+}
+
+.custom-card-1 {
+    background-image: url('assets/collaboration.svg');
+}
+
+.custom-card-2 {
+    background-image: url('assets/growth.svg');
+}
+
+.custom-card-3 {
+    background-image: url('assets/impact.jpg');
+}
+
+.custom-footer {
+    margin-top: 40px; 
+    padding-bottom: 5px;
+}
 
 
