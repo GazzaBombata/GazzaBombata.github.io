@@ -138,4 +138,16 @@ a:hover, a:focus {
     padding-bottom: 5px;
 }
 
+.social-link {
+    margin: 0 10px;
+    color: #000; 
+    font-size: 24px; 
+}
+
+@media (max-width: 768px) {
+    #social-icons {
+        justify-content: flex-start;
+    }
+}
+
 

@@ -1,0 +1,143 @@
+body {
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+section {
+    background-color: coral;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Additional styling for logos and text content */
+.education-logo, .work-logo {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+.education-content, .work-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+/* Add more styling to match your portfolio's theme */
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+li:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+
+li h3 { 
+    margin-top: 0;
+    color: #333;
+}
+
+li p { 
+    margin-bottom: 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+a {
+    color: coral; 
+    text-decoration: none; 
+}
+
+a:hover, a:focus {
+    color: orange; 
+    text-decoration: underline; 
+}
+
+.social-link {
+    margin: 0 10px;
+    color: #000; 
+    font-size: 24px; 
+}
+
+
+.company-logo, .education-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: coral;
+    color: white;
+    font-family: 'Lato';
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: orange;
+    border: none;
+}
+
+.btn-primary:focus {
+    background-color: orange;
+    border: none;
+    text-decoration: none;
+
+}
+
+.page-break {
+    page-break-before: always;
+}

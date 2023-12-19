@@ -19,9 +19,17 @@
  
 
       
-      <!-- Custom styles for bootstrap templates -->
-      <link href="heroes.css" rel="stylesheet">
-      <link href="features.css" rel="stylesheet">
+    <!-- Custom styles for bootstrap templates -->
+    <link href="heroes.css" rel="stylesheet">
+    <link href="features.css" rel="stylesheet">
+
+    <!-- OG -->
+    <meta property="og:title" content="Giorgio Giotto - Full Stack Developer portfolio" />
+    <meta property="og:description" content="Giorgio Giotto's portfolio showcasing skills, projects, and work experience in Full Stack Development." />
+    <meta property="og:image" content="assets/giorgio-giotto-profile-photo-circular.png" />
+    <meta property="og:url" content="https://gazzabombata.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Giorgio Giotto's Portfolio" />
 
     <title>Giorgio Giotto - Full Stack Developer - Portfolio</title>
   </head>
@@ -42,7 +50,7 @@
         <h2 class="display-5 fw-bold">Hi, I'm Giorgio!</h2>
         <h3> a Full Stack Developer based in Italy.</h3>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">An Ops manager, entrepreneur and intrapreneur turned Full Stack Developer. Sounds extravagant? <a href="#footer" class="link">Contact me</a> and find it out.</p>
+          <p class="lead mb-4">An Ops manager, entrepreneur and intrapreneur turned Full Stack Developer. Sounds extravagant? <a href="#footer" class="link">Contact me</a> and find it out. <br/> Have a look at my CV, <a href="cv/cv.html" class="link">here</a>.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center visually-hidden">
             <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
@@ -287,35 +295,41 @@
     <footer class="custom-footer">
       <div class="container" id="footer">
           <div class="row align-items-center justify-content-between">
-              <div class="col-6 align-text-center d-none d-md-inline-block">
-                  <p class="align-items-center"><img src="assets/giorgio-giotto-profile-photo-circular.png" alt="Giorgio Giotto Full Stack Developer profile photo" width="30" height="24" class="d-inline-block align-text-center">
-                    Giorgio Giotto</p>
+              <div class="col-md-6 align-text-center d-none d-md-inline-block">
+                  <p class="align-items-center">
+                      <img src="assets/giorgio-giotto-profile-photo-circular.png" alt="Giorgio Giotto Full Stack Developer profile photo" width="30" height="24" class="d-inline-block align-text-center">
+                      Giorgio Giotto
+                  </p>
               </div>
-              <div class="col-md-6 d-flex justify-content-end">
-                <div class="col-6 d-flex justify-content-end">
-                  <div class="btn btn-primary"  id="show-form-button">
-                    Contact me!
+              <div class="col-md-6 d-flex justify-content-between">
+                  <div id="social-icons" class="d-flex align-items-center">
+                      <a href="https://github.com/GazzaBombata" target="_blank" class="social-link">
+                          <i class="fab fa-github"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/in/giorgiogiotto/" target="_blank" class="social-link">
+                          <i class="fab fa-linkedin"></i>
+                      </a>
                   </div>
-                </div>
-                <form class="col-6 text-end align-text-center visually-hidden" id="contact-form">
-                  <input class=" input email" name="user_email" placeholder="Your Email" required>
-                  <textarea class="visually-hidden" name="message" placeholder="Your Message"></textarea>
-                  <button class="btn btn-primary" type="submit">Send</button>
-                </form>
+                  <button class="btn btn-primary" id="show-form-button">Contact me!</button>
+                  <form class="visually-hidden d-flex align-items-center" id="contact-form" style="width: 100%;">
+                      <input class="form-control me-2 email" name="user_email" placeholder="Your Email" required>
+                      <button class="btn btn-primary" type="submit">Send</button>
+                      <textarea class="visually-hidden" name="message" placeholder="Your Message"></textarea>
+                  </form>
               </div>
-              
-            
-            
           </div>
       </div>
   </footer>
+  
+  
   
 
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="custom-scripts.js"></script>
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script src="custom-scripts.js"></script>
+    
 
     
   </body>

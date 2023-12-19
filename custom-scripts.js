@@ -42,14 +42,18 @@ emailjs.sendForm('service_ts2h0si', 'template_n9th3cs', this)
         form.querySelector('.email').value = '';
 
         document.getElementById('show-form-button').classList.remove('visually-hidden');
+
+        document.getElementById('social-icons').classList.remove('visually-hidden');
     }, function(error) {
         alert('Failed to send the message, please try again.');
     });
 });
 
+
 document.getElementById('show-form-button').addEventListener('click', function() {
     this.classList.add('visually-hidden');
-
     document.getElementById('contact-form').classList.remove('visually-hidden');
+    document.getElementById('social-icons').classList.add('visually-hidden');
 });
+
 
