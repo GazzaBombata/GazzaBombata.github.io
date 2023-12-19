@@ -122,15 +122,15 @@ a:hover, a:focus {
 }
 
 .custom-card-1 {
-    background-image: url('assets/collaboration.svg');
+    background-image: url('images/collaboration.svg');
 }
 
 .custom-card-2 {
-    background-image: url('assets/growth.svg');
+    background-image: url('images/growth.svg');
 }
 
 .custom-card-3 {
-    background-image: url('assets/impact.jpg');
+    background-image: url('images/impact.svg');
 }
 
 .custom-footer {
