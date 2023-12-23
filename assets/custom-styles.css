@@ -150,4 +150,22 @@ a:hover, a:focus {
     }
 }
 
+.circular-photo {
+    width: 32px; 
+    height: 32px;
+}
+
+.svg-icon {
+    width: 30px; 
+    height: 30px;
+}
+
+.c-form {
+    width: 100%;
+}
+
+.svg-small-icon {
+    width: 1em; 
+    height: 1em;
+}
 
